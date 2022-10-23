@@ -1,0 +1,169 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+
+body{
+	font-family: 'Comfortaa', cursive;
+	font-size: 22px;
+	line-height: 40px;
+	color: #00309d;
+}
+
+h1{
+	font-family: 'Comfortaa', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 3%;
+}
+h2{
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	text-align:center ;
+	padding-top: 2%;
+}
+
+li{
+	padding: 2% 5%;
+	list-style-type: none;
+}
+
+.container{
+	justify-content: center;
+	padding: 1% 1%;
+
+}
+
+.flex__container{
+	justify-content: center;
+	align-items:center;
+	margin: 30px 30px 30px 30px;
+	max-width: 2480px;
+	max-height: 3508px;
+		background-color: #a8ffe8;
+}
+
+.I{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	text-align: left: ;
+	border-radius: 10px;
+	border: 3px solid black;
+	padding: 2%;
+	margin: auto;
+
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.block__element_1{
+	flex: 0 1 100%;
+	padding-bottom: 5%;
+}
+
+.block__element_2{
+	flex: 1 1 50%;
+}
+
+.block__element_3{
+	flex: 1 1 50%;
+	border-left: 1px solid black;
+}
+
+.block__element_4{
+	flex: 0 1 100%;
+	padding-top: 1%;
+}
+
+.block__content{
+	background-color:#a8ffe8;;
+}
+
+a[href^="mailto:"] {
+  font-size: 20px;
+  line-height: 32px;
+  padding-left: 5px;
+}
+
+a[href^="tel:"] {
+  font-size: 20px;
+  line-height: 32px;
+  padding-left: 5px;
+}
+
+.contacts{	
+	padding: 2% 5%;
+	color: #00309d;
+}
+
+li.contacts:nth-child(1):before {
+	content: "";
+	display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: url("../img/telephone.png");
+    background-repeat: no-repeat;
+}
+
+li.contacts:nth-child(2):before {
+	content: "";
+	display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+	background: url("../img/gmail.png");
+	background-repeat: no-repeat;
+
+}
+
+li.contacts:nth-child(3):before {
+	content: "";
+	display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+	background: url("../img/telegram.png");
+	background-repeat: no-repeat;
+}
+
+li.contacts:nth-child(4):before {
+	content: "";
+	display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+	background: url("../img/viber.png");
+	background-repeat: no-repeat;
+}
+
+li.contacts:nth-child(5):before {
+	content: "";
+	display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+	background: url("../img/download.png");
+	background-repeat: no-repeat;
+}
+
