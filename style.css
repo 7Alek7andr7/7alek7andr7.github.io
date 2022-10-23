@@ -29,6 +29,7 @@ h1{
 	text-align: center;
 	padding-top: 3%;
 }
+
 h2{
 	font-family: 'Comfortaa', cursive;
 	font-size: 30px;
@@ -45,7 +46,6 @@ li{
 .container{
 	justify-content: center;
 	padding: 1% 1%;
-
 }
 
 .flex__container{
@@ -54,7 +54,7 @@ li{
 	margin: 30px 30px 30px 30px;
 	max-width: 2480px;
 	max-height: 3508px;
-		background-color: #a8ffe8;
+	background-color: #a8ffe8;
 }
 
 .I{
@@ -68,10 +68,10 @@ li{
 	margin: auto;
 
 	-moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
+    	-webkit-user-select: none;
+    	-ms-user-select: none;
+    	-o-user-select: none;
+    	user-select: none;
 }
 
 .block__element_1{
@@ -117,19 +117,19 @@ a[href^="tel:"] {
 li.contacts:nth-child(1):before {
 	content: "";
 	display: block;
-    float: left;
-    width: 36px;
-    height: 36px;
-    background: url("telephone.png");
-    background-repeat: no-repeat;
+    	float: left;
+   	 width: 36px;
+   	 height: 36px;
+   	 background: url("telephone.png");
+   	 background-repeat: no-repeat;
 }
 
 li.contacts:nth-child(2):before {
 	content: "";
 	display: block;
-    float: left;
-    width: 36px;
-    height: 36px;
+   	float: left;
+   	width: 36px;
+	height: 36px;
 	background: url("gmail.png");
 	background-repeat: no-repeat;
 
@@ -138,9 +138,9 @@ li.contacts:nth-child(2):before {
 li.contacts:nth-child(3):before {
 	content: "";
 	display: block;
-    float: left;
-    width: 36px;
-    height: 36px;
+    	float: left;
+    	width: 36px;
+    	height: 36px;
 	background: url("telegram.png");
 	background-repeat: no-repeat;
 }
@@ -148,9 +148,9 @@ li.contacts:nth-child(3):before {
 li.contacts:nth-child(4):before {
 	content: "";
 	display: block;
-    float: left;
-    width: 36px;
-    height: 36px;
+    	float: left;
+    	width: 36px;
+    	height: 36px;
 	background: url("viber.png");
 	background-repeat: no-repeat;
 }
@@ -158,9 +158,9 @@ li.contacts:nth-child(4):before {
 li.contacts:nth-child(5):before {
 	content: "";
 	display: block;
-    float: left;
-    width: 36px;
-    height: 36px;
+    	float: left;
+    	width: 36px;
+    	height: 36px;
 	background: url("download.png");
 	background-repeat: no-repeat;
 }
