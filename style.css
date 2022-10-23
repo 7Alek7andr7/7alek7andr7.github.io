@@ -122,7 +122,7 @@ li.contacts:nth-child(1):before {
     float: left;
     width: 36px;
     height: 36px;
-    background: url("../img/telephone.png");
+    background: url("telephone.png");
     background-repeat: no-repeat;
 }
 
@@ -132,7 +132,7 @@ li.contacts:nth-child(2):before {
     float: left;
     width: 36px;
     height: 36px;
-	background: url("../img/gmail.png");
+	background: url("gmail.png");
 	background-repeat: no-repeat;
 
 }
@@ -143,7 +143,7 @@ li.contacts:nth-child(3):before {
     float: left;
     width: 36px;
     height: 36px;
-	background: url("../img/telegram.png");
+	background: url("telegram.png");
 	background-repeat: no-repeat;
 }
 
@@ -153,7 +153,7 @@ li.contacts:nth-child(4):before {
     float: left;
     width: 36px;
     height: 36px;
-	background: url("../img/viber.png");
+	background: url("viber.png");
 	background-repeat: no-repeat;
 }
 
@@ -163,7 +163,7 @@ li.contacts:nth-child(5):before {
     float: left;
     width: 36px;
     height: 36px;
-	background: url("../img/download.png");
+	background: url("download.png");
 	background-repeat: no-repeat;
 }
 
